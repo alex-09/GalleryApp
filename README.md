@@ -1,16 +1,13 @@
-# gallery_midterm
+# MIDTERM: Personal Gallery Static Application made in Flutter
 
-A new Flutter project.
+Install dependencies by typing: `pub get`
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Sections of the app
+1. **Home page (brain icon)** - this is where photos with caption lives. It emphasizes the interests and life's philosophy of the owner.
+    1. *carousel_slider* is used to setup the photos in a vertical scrolling manner with a minimal animation and automatic sliding feature.
+2. **Favorites page (heart icon)** - the photos here contains a more personal touch inside the life of the owner.
+    1. *ListView* is used here adding blue border to each pictures
+3. **Time check** - scrolling can be a mindless and endless task so one needs to check the time and date.
+    1. *DateFormat* is used to get the time and date in the desired format
+4. **Photos of the owner** - as already said, it includes the photos of the owner.
+    1. The layout used here is *GridView* where each cell contains a picture
